@@ -29,8 +29,9 @@ exports.create = function(req,res){
            console.log(err);
            return;
       }
-
-      res.redirect('/index');
+     
+        res.redirect('/');
+     
     });
     
     
